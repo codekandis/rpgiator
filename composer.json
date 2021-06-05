@@ -1,0 +1,54 @@
+{
+	"name": "codekandis/rpgiator",
+	"description": "This library provides several interfaces and classes for RPG based games like skills, perks, weapons, necessary calculators and dice algorhitms.",
+	"keywords": [
+		"php",
+		"rpg",
+		"library",
+		"skills",
+		"perks",
+		"calculators",
+		"dice",
+		"algorithms"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/rpgiator/issues",
+		"docs": "https://github.com/codekandis/rpgiator/blob/master/README.md",
+		"source": "https://github.com/codekandis/rpgiator/tree/master"
+	},
+	"require": {
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\RPGiator\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\RPGiator\\Tests\\": [
+				"tests/"
+			]
+		}
+	},
+	"scripts": {
+	}
+}
